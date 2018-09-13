@@ -1,0 +1,10 @@
+{
+    "prettier.eslintIntegration": true,
+    "editor.formatOnSave": true,
+    "flow.enabled": true,
+    "flow.useNPMPackagedFlow": true,
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+    "prettier.printWidth": 120
+  }
+  

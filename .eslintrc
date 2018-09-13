@@ -1,0 +1,42 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "react-app",
+      "eslint:recommended",
+      "prettier",
+      "prettier/flowtype"
+    ],
+    "plugins": ["react", "prettier", "flowtype"],
+    "rules": {
+      "prefer-const": "error",
+      "no-var": "error",
+      "no-unused-vars": "error",
+      "quotes": ["error", "single"],
+      "no-console": ["error", { "allow": ["warn", "error"] }],
+      "no-case-declarations": 0,
+      "eqeqeq": "error",
+      "semi": "error",
+      "no-unused-expressions": "error",
+      "array-callback-return": "error",
+      "arrow-body-style": ["error", "as-needed"],
+      "indent": ["error", 2, { "SwitchCase": 1 }],
+      "jsx-a11y/href-no-hash": "off",
+      "flowtype/generic-spacing": ["error", "never"],
+      "flowtype/union-intersection-spacing": ["error", "always"],
+      "flowtype/boolean-style": ["error", "boolean"],
+      "flowtype/no-primitive-constructor-types": "error",
+      "flowtype/object-type-delimiter": ["error", "comma"],
+      "flowtype/space-before-generic-bracket": ["error", "never"],
+      "flowtype/space-before-type-colon": ["error", "never"],
+      "flowtype/no-types-missing-file-annotation": "error",
+      "flowtype/no-weak-types": [
+        2,
+        {
+          "any": false,
+          "Object": true,
+          "Function": false
+        }
+      ]
+    }
+  }
+  

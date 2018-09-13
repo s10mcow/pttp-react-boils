@@ -1,0 +1,3 @@
+build/*
+flow-typed/*
+.insync-trash/*
