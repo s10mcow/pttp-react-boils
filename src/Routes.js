@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter, Redirect } from 'react-router';
+import Example from './modules/Example/Example';
 
 type Props = {
   location: { pathname: string, search: string, hash: string, key: string },
@@ -13,8 +14,8 @@ class Routes extends React.PureComponent<Props, null> {
     return (
       <React.Fragment>
         <Switch>
-          {/* <Route path="/" component={Home} />       
-          <Redirect to={} /> */}
+          <Route path="/" component={Example} />
+          {/* <Redirect to={} /> */}
         </Switch>
       </React.Fragment>
     );
