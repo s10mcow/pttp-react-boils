@@ -5,4 +5,11 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+// Webpack Hot Module Replacement API
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    ReactDOM.render(<App />, document.getElementById('root'));
+  });
+}
 registerServiceWorker();
