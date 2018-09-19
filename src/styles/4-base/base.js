@@ -1,6 +1,5 @@
 import { css } from 'styled-components';
 import theme from '../1-settings/theme';
-import '../../assets/fonts/fonts.css';
 
 const base = css`
   body {
